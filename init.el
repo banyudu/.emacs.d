@@ -21,3 +21,6 @@
 
 ;; programming basic configs
 (require 'init-programming)
+
+;; cc-mode
+(require 'init-cc-mode)
