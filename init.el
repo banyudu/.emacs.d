@@ -24,3 +24,6 @@
 
 ;; cc-mode
 (require 'init-cc-mode)
+
+;; markdown mode
+(require 'init-markdown)
