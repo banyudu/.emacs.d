@@ -3,3 +3,8 @@
 
 # Packaging
 .cask
+.emacs.desktop
+ac-comphist.dat
+
+# elpa
+elpa/
