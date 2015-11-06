@@ -5,4 +5,7 @@
 
 (global-set-key (kbd "<f5>") 'compile)
 
+;; auto revert buffer
+(global-auto-revert-mode 1)
+
 (provide 'init-programming)
