@@ -19,4 +19,5 @@
 ;; theme
 (require 'init-themes)
 
-
+;; programming basic configs
+(require 'init-programming)
