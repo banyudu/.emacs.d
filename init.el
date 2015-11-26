@@ -27,3 +27,6 @@
 
 ;; markdown mode
 (require 'init-markdown)
+
+;; compile
+(require 'init-compile)
