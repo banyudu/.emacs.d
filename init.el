@@ -32,4 +32,4 @@
 (require 'init-compile)
 
 ;; rss and news
-(require 'init-rss-news)
+;; (require 'init-rss-news)
