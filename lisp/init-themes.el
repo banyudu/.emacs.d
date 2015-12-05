@@ -10,4 +10,10 @@
 ;; hide scroll bar
 (scroll-bar-mode -1)
 
+;; init font
+(if (eq system-type 'darwin)
+	(set-default-font "Monaco 14"))
+(add-to-list 'default-frame-alist '(font . "Monaco-13"))
+(set-fontset-font "fontset-default" 'han (font-spec :family "Monaco" :size 13))
+
 (provide 'init-themes)
