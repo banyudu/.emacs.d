@@ -11,3 +11,5 @@ elpa/
 .emacs.desktop.lock
 
 auto-save-list/
+tramp
+url/

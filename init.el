@@ -27,3 +27,9 @@
 
 ;; markdown mode
 (require 'init-markdown)
+
+;; compile
+(require 'init-compile)
+
+;; rss and news
+;; (require 'init-rss-news)
