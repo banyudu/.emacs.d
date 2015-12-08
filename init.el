@@ -33,3 +33,6 @@
 
 ;; rss and news
 ;; (require 'init-rss-news)
+
+;; ido
+(require 'init-ido)
