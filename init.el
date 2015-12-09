@@ -36,3 +36,9 @@
 
 ;; ido
 (require 'init-ido)
+
+;; json
+(require 'init-json)
+
+;; org-mode
+(require 'init-org-mode)
