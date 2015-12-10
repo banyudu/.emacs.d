@@ -42,3 +42,6 @@
 
 ;; org-mode
 (require 'init-org-mode)
+
+;; nxml
+(require 'init-xml)
