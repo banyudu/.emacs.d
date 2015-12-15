@@ -1,4 +1,3 @@
 ;; init-compile.el
-
-(setq compilation-scroll-output 'first-error)
+(setq compilation-scroll-output t)
 (provide 'init-compile)
