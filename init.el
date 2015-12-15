@@ -45,3 +45,6 @@
 
 ;; nxml
 (require 'init-xml)
+
+;; info
+(require 'init-info)
