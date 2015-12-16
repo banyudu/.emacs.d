@@ -1,8 +1,14 @@
 ;; init-info.el
 
 (require 'info)
-(setq Info-directory-list
-	  (cons (expand-file-name "info" user-emacs-directory)
-			Info-default-directory-list))
+
+(add-to-list 'Info-default-directory-list "~/.emacs.d/info")
+
+(defun info-mode ()
+  (interactive)
+  (let ((file-name (buffer-file-name)))
+    (kill-buffer (current-buffer))
+    (info file-name)))
+(add-to-list 'auto-mode-alist '("\\.info\\'" . info-mode))
 
 (provide 'init-info)
