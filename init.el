@@ -48,3 +48,6 @@
 
 ;; info
 (require 'init-info)
+
+;; translate
+(require 'init-translate)
