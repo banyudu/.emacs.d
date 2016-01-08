@@ -51,3 +51,6 @@
 
 ;; translate
 (require 'init-translate)
+
+;; todo
+(require 'init-todo)
