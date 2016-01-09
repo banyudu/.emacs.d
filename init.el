@@ -54,3 +54,6 @@
 
 ;; todo
 (require 'init-todo)
+
+;; scss
+(require 'init-scss)
