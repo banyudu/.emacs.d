@@ -57,3 +57,6 @@
 
 ;; scss
 (require 'init-scss)
+
+;; yaml
+(require 'init-yaml)
