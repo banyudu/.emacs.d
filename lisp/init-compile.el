@@ -2,7 +2,8 @@
 (setq compilation-scroll-output t)
 (add-hook 'compilation-mode-hook
           '(lambda()
-;;             (setq compilation-auto-jump-to-first-error t)
+             (setq compilation-auto-jump-to-first-error t)
+			 (setq compilation-skip-threshold 2)
              (setq compilation-scroll-output t
                    compilation-window-height 10)
              (define-key compilation-mode-map (kbd "n") 'compilation-next-error)
