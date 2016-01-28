@@ -36,6 +36,10 @@
 ;; ff-find-other-file shortcut
 (add-hook 'c-initialization-hook (lambda ()
     (define-key c-mode-base-map [(meta o)] 'ff-get-other-file))
-)
+		  )
+
+;; projectile
+(require-package 'projectile)
+(projectile-global-mode)
 
 (provide 'init-programming)
