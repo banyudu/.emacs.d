@@ -66,3 +66,6 @@
 
 ;; line number
 (require 'init-line-number)
+
+;; speedbar
+(require 'init-speedbar)
