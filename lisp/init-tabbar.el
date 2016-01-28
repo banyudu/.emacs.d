@@ -26,7 +26,8 @@
                     )  
 ;; 设置非当前tab外观：外框大小和颜色  
 (set-face-attribute 'tabbar-unselected nil  
-                    :inherit 'tabbar-default  
-                    :box '(:line-width 2 :color "LightGoldenrod")  
+                    :inherit 'tabbar-default
+					:foreground "DeepSkyBlue4"
+                    :box '(:line-width 2 :color "LightGoldenrod")
                     )  
 (provide 'init-tabbar)
