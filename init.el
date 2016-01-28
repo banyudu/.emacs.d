@@ -63,3 +63,6 @@
 
 ;; tabbar
 (require 'init-tabbar)
+
+;; line number
+(require 'init-line-number)
