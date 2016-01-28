@@ -4,7 +4,7 @@
 (tabbar-mode 1)
 
 (set-face-attribute 'tabbar-default nil  
-                    :family "DejaVu Sans Mono"  
+                    :family "Monaco"  
                     :background "gray80"  
                     :foreground "gray30"  
                     :height 1.0  
@@ -27,6 +27,6 @@
 ;; 设置非当前tab外观：外框大小和颜色  
 (set-face-attribute 'tabbar-unselected nil  
                     :inherit 'tabbar-default  
-                    :box '(:line-width 2 :color "#00B2BF")  
+                    :box '(:line-width 2 :color "LightGoldenrod")  
                     )  
 (provide 'init-tabbar)
