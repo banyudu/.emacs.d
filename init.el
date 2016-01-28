@@ -60,3 +60,6 @@
 
 ;; yaml
 (require 'init-yaml)
+
+;; tabbar
+(require 'init-tabbar)
