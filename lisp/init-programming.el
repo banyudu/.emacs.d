@@ -1,5 +1,8 @@
 ;; init-programming.el
 
+;; tags
+(require 'init-tags)
+
 ;; auto pair
 (electric-pair-mode 1)
 
@@ -39,7 +42,7 @@
 		  )
 
 ;; projectile
-(require-package 'projectile)
-(projectile-global-mode)
+;;(require-package 'projectile)
+;;(projectile-global-mode)
 
 (provide 'init-programming)
