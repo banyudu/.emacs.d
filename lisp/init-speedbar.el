@@ -9,7 +9,7 @@
 (setq sr-speedbar-right-side nil)
 
 ;; open speedbar on start up
-(add-hook 'emacs-startup-hook (lambda ()
-  (sr-speedbar-open)
-  ))
+;; (add-hook 'emacs-startup-hook (lambda ()
+;;   (sr-speedbar-open)
+;;   ))
 (provide 'init-speedbar)
