@@ -1,6 +1,9 @@
 ;; load path
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
+;; common functions
+(require 'init-functions)
+
 ;; package manager
 (require 'init-package-manager)
 
