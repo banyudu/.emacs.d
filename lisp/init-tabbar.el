@@ -32,4 +32,21 @@
                     :box '(:line-width 2 :color "LightGoldenrod")
                     )
 
+;; Show buffers in the current directory (Code paste from Emacs Wiki)
+(setq tabbar-cycle-scope 'tabs)
+(setq tabbar-buffer-groups-function
+	  (lambda ()
+		(let ((dir (expand-file-name default-directory)))
+		  (cond ((member (buffer-name) '("*Completions*"
+										 "*scratch*"
+										 "*Messages*"
+										 "*Ediff Registry*"))
+				 (list "#misc"))
+				((string-match-p "/.emacs.d/" dir)
+				 (list ".emacs.d"))
+				(t (list dir))))))
+
+;; not use image in tab bar(Code paste from Emacs Wiki)
+(setq tabbar-use-images nil)
+
 (provide 'init-tabbar)
