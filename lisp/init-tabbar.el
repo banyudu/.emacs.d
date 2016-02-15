@@ -44,6 +44,8 @@
 				 (list "#misc"))
 				((string-match-p "/.emacs.d/" dir)
 				 (list ".emacs.d"))
+				((string-match-p "/fdcs/" dir)
+				 (list "fdcs"))
 				(t (list dir))))))
 
 ;; not use image in tab bar(Code paste from Emacs Wiki)
