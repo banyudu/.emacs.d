@@ -40,7 +40,8 @@
 		  (cond ((member (buffer-name) '("*Completions*"
 										 "*scratch*"
 										 "*Messages*"
-										 "*Ediff Registry*"))
+										 "*Ediff Registry*"
+										 "*compilation*"))
 				 (list "#misc"))
 				((string-match-p "/.emacs.d/" dir)
 				 (list ".emacs.d"))
