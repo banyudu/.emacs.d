@@ -13,4 +13,6 @@
 ;; .h file as c++-mode
 (add-to-list 'auto-mode-alist '("\\.h\\'" . c++-mode))
 
+;; (require-package 'ecb)
+
 (provide 'init-cc-mode)

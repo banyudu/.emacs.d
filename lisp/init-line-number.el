@@ -1,7 +1,9 @@
 ;; init-line-number.el
 
-(require-package 'nlinum)
+;; show line number in prog-mode
+(add-hook 'prog-mode-hook 'linum-mode)
 
-(global-nlinum-mode 1)
+;; set line number style
+(setq linum-format "%d ")
 
 (provide 'init-line-number)
