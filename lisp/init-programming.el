@@ -26,7 +26,6 @@
 
 (setq-default ff-other-file-alist 'my-cpp-other-file-alist) ;; alist of extensions to find given the current file's extension.
 
-
 (setq ff-search-directories
       '("."
         "../src/*"
@@ -37,12 +36,16 @@
         "/opt/local/include/*")) ;; List of directories searched through with each extension specified in 'ff-other-file-alist' that matches this file's extension
 
 ;; ff-find-other-file shortcut
-(add-hook 'c-initialization-hook (lambda ()
+(add-hook 'c-mode-hook (lambda ()
     (define-key c-mode-base-map [(meta o)] 'ff-get-other-file))
 		  )
 
 ;; projectile
 ;;(require-package 'projectile)
 ;;(projectile-global-mode)
+
+;; auto delete trailing whitespace before save
+(add-hook 'prog-mode-hook
+		  (lambda () (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
 
 (provide 'init-programming)
