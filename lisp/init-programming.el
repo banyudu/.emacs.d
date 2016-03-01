@@ -36,7 +36,7 @@
         "/opt/local/include/*")) ;; List of directories searched through with each extension specified in 'ff-other-file-alist' that matches this file's extension
 
 ;; ff-find-other-file shortcut
-(add-hook 'c-mode-hook (lambda ()
+(add-hook 'c-mode-common-hook (lambda ()
     (define-key c-mode-base-map [(meta o)] 'ff-get-other-file))
 		  )
 
