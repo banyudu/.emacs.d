@@ -11,4 +11,7 @@
 (add-to-list 'ac-modes 'sql-mode)
 (add-to-list 'ac-modes 'nxml-mode)
 
+;; auto complete c headers
+(require-package 'auto-complete-c-headers)
+
 (provide 'init-auto-complete)
