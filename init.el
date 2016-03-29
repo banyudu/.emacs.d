@@ -65,7 +65,7 @@
 (require 'init-yaml)
 
 ;; tabbar
-(require 'init-tabbar)
+;; (require 'init-tabbar)
 
 ;; line number
 (require 'init-line-number)
