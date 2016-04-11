@@ -16,3 +16,5 @@ url/
 ido.last
 projectile-bookmarks.eld
 *.log
+*.el~
+server/server
