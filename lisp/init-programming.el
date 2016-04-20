@@ -48,4 +48,7 @@
 (add-hook 'prog-mode-hook
 		  (lambda () (add-to-list 'write-file-functions 'delete-trailing-whitespace)))
 
+(add-hook 'prog-mode-hook '(lambda ()
+  (local-set-key (kbd "RET") 'newline-and-indent)))
+
 (provide 'init-programming)
