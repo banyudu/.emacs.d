@@ -82,3 +82,6 @@
 
 ;; start server
 (server-start)
+
+;; irc
+(require 'init-irc)
