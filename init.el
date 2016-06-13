@@ -85,3 +85,6 @@
 
 ;; irc
 (require 'init-irc)
+
+;; css
+(require 'init-css)

@@ -18,3 +18,5 @@ projectile-bookmarks.eld
 *.log
 *.el~
 server/server
+session*
+.#ido.last
