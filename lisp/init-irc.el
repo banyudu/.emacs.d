@@ -1,5 +1,5 @@
 ;; init-irc.el
 
-(require-package 'circe)
+;; (require-package 'circe)
 
 (provide 'init-irc)
