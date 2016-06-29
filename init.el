@@ -8,6 +8,9 @@
 
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
+;; config information
+(require 'init-config)
+
 ;; common functions
 (require 'init-functions)
 
@@ -91,6 +94,7 @@
 
 ;; header
 (require 'init-header)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
