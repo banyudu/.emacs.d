@@ -88,3 +88,6 @@
 
 ;; css
 (require 'init-css)
+
+;; coffee
+(require 'init-coffee)
