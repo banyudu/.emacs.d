@@ -96,7 +96,7 @@
 (require 'init-coffee)
 
 ;; header
-(require 'init-header)
+;; (require 'init-header)
 
 ;; javascript
 (require 'init-javascript)
